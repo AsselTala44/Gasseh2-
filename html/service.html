@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>About - Gassah Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assests/img/favicon.png" rel="icon">
+  <link href="assests/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assests/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../assests/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assests/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assests/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assests/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assests/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assests/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assests/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assests/css/style.css" rel="stylesheet">
+
+
+  <!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="../assests/css/sliderStyle.css" />
+
+ <style>
+        
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(78, 84, 200, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+        
+        .gallery-overlay-content {
+            text-align: center;
+            color: white;
+        }
+        
+        .video-gallery {
+            margin: 40px 0;
+        }
+        
+        .video-item {
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .video-item video {
+            width: 100%;
+            height: auto;
+        }
+        
+        .video-info {
+            padding: 15px;
+            background: white;
+        }
+        
+       
+    </style>
+
+<style>
+    /* الوضع الافتراضي */
+    body.light {
+      background: #ffffff;
+      color: #000000;
+    }
+
+    /* الوضع الداكن */
+    body.dark {
+      background: #121212;
+      color: #FFC000;
+    }
+
+    /* انتقالات سلسة */
+    body {
+      transition: background 0.4s ease, color 0.4s ease;
+      font-family: "Tahoma", sans-serif;
+      padding: 20px;
+    }
+
+    /* زر التبديل */
+    #theme-toggle {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 50px;
+      height: 50px;
+      border: none;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #ffdd57, #ffae00);
+      color: #fff;
+      font-size: 24px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    #theme-toggle:hover {
+      transform: scale(1.1);
+    }
+
+    /* شكل الزر في الوضع الداكن */
+    body.dark #theme-toggle {
+      background: linear-gradient(135deg, #2c3e50, #000000);
+    }
+
+    /* الأيقونة */
+    #theme-toggle .icon {
+      transition: transform 0.4s ease;
+    }
+
+  </style>
+ 
+</head>
+
+<body>
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        
+        <img src="../assests/images/logo.png"/>
+		
+      </div>
+	  <button id="theme-toggle" aria-label="toggle">
+          <h3 class="icon"></h3>
+         </button>
+	  
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="../index.html" >Home</a></li>
+
+          <li ><a href="about.html" ><span>About</span> </a> </li>
+          <li><a href="service.html" class="active">Services</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Services</h2>
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li>Services</li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Breadcrumbs -->
+  <main id="main">
+    <!-- ======= service Section ======= -->
+ <div class="container">
+
+        <h1 class="main-title">The Best Of Things </h1>
+        
+        <div class="wow-slider">
+            <div class="slider-container">
+                <div class="slide active" data-category="ceramics">
+                    <img src="../assests/images/Ceramics-1.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Ceramics</h3>
+                        <p>hhhhhhhhhhhhhhhhhhhhh</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="ceramics">
+                    <img src="../assests/images/Ceramics-2.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Ceramics</h3>
+                        <p>gggggggggggggg</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="minerals">
+                    <img src="../assests/images/Minerals-1.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Minerals</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="minerals">
+                    <img src="../assests/images/Minerals-2.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Minerals</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+
+                  <div class="slide" data-category="copperplates">
+                    <img src="../assests/images/Copperplates-1.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Copperplates</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="copperplates">
+                    <img src="../assests/images/Copperplates-2.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Copperplates</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+
+                 <div class="slide" data-category="ceramics">
+                    <img src="../assests/images/Ceramics-3.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Ceramics</h3>
+                        <p>hhhhhhhhhhhhhhhhhhhhh</p>
+                    </div>
+                </div>
+
+                  <div class="slide" data-category="janbiah">
+                    <img src="../assests/images/Janbiah-3.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Janbiah</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="janbiah">
+                    <img src="../assests/images/Janbiah-4.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Janbiah</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+
+                  <div class="slide" data-category="copperplates">
+                    <img src="../assests/images/Copperplates-3.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Copperplates</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="copperplates">
+                    <img src="../assests/images/Copperplates-4.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Copperplates</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="ceramics">
+                    <img src="../assests/images/Ceramics-4.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Ceramics</h3>
+                        <p>gggggggggggggg</p>
+                    </div>
+                </div>
+
+                 <div class="slide" data-category="minerals">
+                    <img src="../assests/images/Minerals-3.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Minerals</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="minerals">
+                    <img src="../assests/images/Minerals-4.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Minerals</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+
+                 <div class="slide" data-category="janbiah">
+                    <img src="../assests/images/Janbiah-1.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Janbiah</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+                
+                <div class="slide" data-category="janbiah">
+                    <img src="../assests/images/Janbiah-2.jpg" alt="">
+                    <div class="slide-content">
+                        <h3>Janbiah</h3>
+                        <p>ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+                
+               
+                
+               
+            </div>
+            
+            <!-- أزرار التنقل -->
+            <button class="nav-btn prev-btn" onclick="changeSlide(-1)">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15,18 9,12 15,6"></polyline>
+                </svg>
+            </button>
+            <button class="nav-btn next-btn" onclick="changeSlide(1)">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9,18 15,12 9,6"></polyline>
+                </svg>
+            </button>
+            
+            <!-- مؤشرات الشرائح -->
+            <div class="slide-indicators">
+                <span class="indicator active" onclick="currentSlide(1)"></span>
+                <span class="indicator" onclick="currentSlide(2)"></span>
+                <span class="indicator" onclick="currentSlide(3)"></span>
+                <span class="indicator" onclick="currentSlide(4)"></span>
+                <span class="indicator" onclick="currentSlide(5)"></span>
+                <span class="indicator" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+        
+        <!-- فلاتر الفئات -->
+        <div class="category-filters">
+            <button class="filter-btn active" onclick="filterSlides('all')">All</button>
+            <button class="filter-btn" onclick="filterSlides('janbiah')">Janbiah</button>
+            <button class="filter-btn" onclick="filterSlides('copperplates')">Copperplates</button>
+            <button class="filter-btn" onclick="filterSlides('ceramics')">Ceramics</button>
+            <button class="filter-btn" onclick="filterSlides('minerals')">Minerals</button>
+        </div>
+
+
+<!-- Video Gallery -->
+        <section class="video-gallery">
+           <h1 class="main-title">معرض الفيديوهات</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="video-item">
+                        <video controls poster="../assests/videos/video1-poster.jpg">
+                            <source src="../assests/videos/project1.mp4" type="video/mp4">
+                            متصفحك لا يدعم تشغيل الفيديوهات.
+                        </video>
+                        <div class="video-info">
+                            <h4>The Best Of Things</h4>
+                            <p>ggggggggggggggggggggggggggggggg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="video-item">
+                        <video controls poster="../assests/videos/video1-poster.jpg">
+                            <source src="../assests/videos/project2.mp4" type="video/mp4">
+                            متصفحك لا يدعم تشغيل الفيديوهات.
+                        </video>
+                        <div class="video-info">
+                            <h4>The Best Of Things</h4>
+                            <p>ggggggggggggggggggggggggggggggg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+
+
+    </main>
+
+ <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Gassah</h3>
+            <p>
+              Alsbayri Street <br>
+              Sana'a Onlin<br>
+              Yemen  <br><br>
+              <strong>Phone:</strong> +967 777 555 666<br>
+              <strong>Email:</strong> AseelStor@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="../index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service.html">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Janbiah</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Copperplates</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Ceramics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Minerals</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+     
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+    
+
+
+<!-- Vendor JS Files -->
+  
+  <script src="assests/vendor/aos/aos.js"></script>
+  <script src="assests/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assests/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assests/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assests/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assests/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assests/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assests/js/sliderScript.js"></script>
+
+ <script>
+ 
+    const toggleBtn = document.getElementById("theme-toggle");
+    const icon = toggleBtn.querySelector(".icon");
+    const body = document.body;
+
+    // التحقق من آخر اختيار
+    if (localStorage.getItem("theme") === "dark") {
+      body.classList.add("dark");
+      icon.textContent = " ";
+    } else {
+      body.classList.add("light");
+      icon.textContent = " ";
+    }
+
+    toggleBtn.addEventListener("click", () => {
+      if (body.classList.contains("light")) {
+        body.classList.replace("light", "dark");
+        icon.textContent = " ";
+        localStorage.setItem("theme", "dark");
+      } else {
+        body.classList.replace("dark", "light");
+        icon.textContent = " ";
+        localStorage.setItem("theme", "light");
+      }
+    });
+	
+  </script>
+</body>
+
+</html>
